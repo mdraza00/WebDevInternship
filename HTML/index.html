@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Comment -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn CSS - Demo Page</title>
     <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./../Styles/styles.css" />
   </head>
   <body>
     <header>
-      <!-- color : green -->
-      <!-- propertyName : value -->
-      <h1 style="color:green;">Welcome to CSS Learning</h1>
-      <p class="subtitle">Understand how styles bring a webpage to life</p>
+      <h1 class="text-orange bg-purple" id="color">Welcome to CSS Learning</h1>
+      <p class="brown-border">Understand how styles bring a webpage to life</p>
     </header>
 
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li class="brown-border bg-purple"><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
 
+    <ul>
+      <li>Testing</li>
+      xcc
+    </ul>
+
     <main>
       <section id="about">
-        <h2>About This Page</h2>
-        <p>
+        <h2 class="text-orange">About This Page</h2>
+        <p class="brown-border">
           This is a demo webpage created for explaining CSS concepts to
           students. You’ll learn how to change colors, layout, typography, and
           more.
@@ -36,7 +39,7 @@
 
       <section id="services">
         <h2>Our Services</h2>
-        <div class="cards">
+        <div class="cards bg-purple" id="border-aqua">
           <div class="card">
             <h3>Web Development</h3>
             <p>We build fast, scalable, and modern websites.</p>
